@@ -1,0 +1,2 @@
+#应用名称,日志文件,关键字(多关键字|隔开),重试次数,最大执行次数,启动命令,停止命令,是否触发邮件,发邮件脚本,邮件联系人
+应用1,/var/log/xiaozhang.log,File|ERROR,0,10,,,1,sh /home/xiaozhang/CheckLogs/sendmail.sh, 1688888@qq.com
